@@ -32,3 +32,17 @@ Enable the ```ITEM_PIPELINES``` setting and add ```leclerc.pipelines.MongoDBPipe
 Set the ```MONGO_URI``` and ```MONGO_DATABASE``` settings to the values you want to use for your MongoDB connection.
 In the pipelines.py file of your Scrapy project, you need to paste the code for the MongoDB pipeline:
 
+
+You will need to specify the MongoDB URL in the Scrapy settings file, which is usually named settings.py and located in your project directory.
+```
+# settings.py
+
+# ...
+
+# MongoDB settings
+MONGO_URI = 'mongodb://localhost:27017'
+MONGO_DATABASE = '<your_database_name>'
+
+# ...
+```
+
