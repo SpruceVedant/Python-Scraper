@@ -19,6 +19,7 @@ Create a new Scrapy project by running
 scrapy startproject projectname
 ```
 
+Create a new Scrapy spider by running
 ```
 scrapy genspider spidername
 ```
