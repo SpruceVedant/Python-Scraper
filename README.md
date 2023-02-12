@@ -10,3 +10,7 @@ Test your spider by running scrapy crawl spidername.
 ```
 pip install scrapy
 ```
+
+```
+scrapy startproject projectname
+```
