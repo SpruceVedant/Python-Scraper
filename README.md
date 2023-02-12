@@ -7,6 +7,8 @@ Write the code to extract the data from the website and store it in a Python dic
 Set up a MongoDB connection and insert the extracted data into the database.
 Test your spider by running scrapy crawl spidername.
 
+
+Install Scrapy framework by running pip install scrapy
 ```
 pip install scrapy
 ```
