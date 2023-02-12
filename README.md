@@ -13,6 +13,8 @@ Install Scrapy framework by running pip install scrapy
 pip install scrapy
 ```
 
+
+Create a new Scrapy project by running
 ```
 scrapy startproject projectname
 ```
