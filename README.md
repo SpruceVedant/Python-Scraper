@@ -6,3 +6,7 @@ Define the structure of the product data you want to scrape in the spider file u
 Write the code to extract the data from the website and store it in a Python dictionary.
 Set up a MongoDB connection and insert the extracted data into the database.
 Test your spider by running scrapy crawl spidername.
+
+```
+pip install scrapy
+```
