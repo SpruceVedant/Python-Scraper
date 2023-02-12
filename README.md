@@ -11,12 +11,12 @@ pip install scrapy
 
 Create a new Scrapy project by running
 ```
-scrapy startproject projectname
+scrapy startproject <projectname>
 ```
 
 Create a new Scrapy spider by running
 ```
-scrapy genspider spidername
+scrapy genspider <spidername>
 ```
 Test your spider by running scrapy crawl spidername.
 ```
