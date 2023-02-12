@@ -14,3 +14,7 @@ pip install scrapy
 ```
 scrapy startproject projectname
 ```
+
+```
+scrapy genspider spidername
+```
