@@ -40,7 +40,7 @@ You will need to specify the MongoDB URL in the Scrapy settings file, which is u
 # ...
 
 # MongoDB settings
-MONGO_URI = 'mongodb://localhost:27017'
+MONGO_URI = 'MONGODB_URI' #Test url already tested with all existing mongoDB atlas clusters. 
 MONGO_DATABASE = '<your_database_name>'
 
 # ...
