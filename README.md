@@ -15,7 +15,7 @@ Create a new Scrapy spider by running
 ```
 scrapy genspider <spidername>
 ```
-Test your spider by running scrapy crawl spidername.
+Test your spider by running 
 ```
 scrapy crawl <spidername>
 ```
