@@ -21,7 +21,6 @@ scrapy crawl <spidername>
 ```
 
 
-
 Define the structure of the product data you want to scrape in the spider file using xpath selectors or css selectors.
 
 In the settings.py file of your Scrapy project, you need to set the following:
