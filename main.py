@@ -4,7 +4,7 @@ import scrapy
 from scrapy.crawler import CrawlerProcess
 import pymongo
 
-# Connect to MongoDB
+# Connect to MongoDB through mongo client 
 client = pymongo.MongoClient("mongodb://localhost:27017/")#mongo url here 
 db = client["leclerc_fr"]
 collection = db["products"]
